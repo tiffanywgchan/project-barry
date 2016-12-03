@@ -22,9 +22,17 @@ public class FlashMemesController {
     @FXML
     private Button flashBack;
     
+    @FXML
+    private Button pause;
+    
     @FXML MediaView mdv;
     Media media;
     public static MediaPlayer mpl;
+    
+    @FXML
+    void pauseOnAction(ActionEvent event) {
+        mpl.stop();
+    }
     
     @FXML
     void flashBack(ActionEvent event) {
@@ -35,30 +43,30 @@ public class FlashMemesController {
     void seaosn1OnAction(ActionEvent event) {
         String path = "The Flash Season 1 CW TV series Opening Monologue HD1080.mp3";
         media = new Media(new File(path).toURI().toString());
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setAutoPlay(true);
-        MediaView mediaView = new MediaView(mediaPlayer);
-        mediaPlayer.play();
+        mpl = new MediaPlayer(media);
+        mpl.setAutoPlay(true);
+        MediaView mediaView = new MediaView(mpl);
+        mpl.play();
     }
 
     @FXML
     void season2OnAction(ActionEvent event) {
         String path = "The Flash - introduction season 2 [Vostfr].mp3";
         media = new Media(new File(path).toURI().toString());
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setAutoPlay(true);
-        MediaView mediaView = new MediaView(mediaPlayer);
-        mediaPlayer.play();
+        mpl = new MediaPlayer(media);
+        mpl.setAutoPlay(true);
+        MediaView mediaView = new MediaView(mpl);
+        mpl.play();
     }
 
     @FXML
     void season3OnAction(ActionEvent event) {
        String path = "The Flash , Season 3 Intro-Opening-Abertura Oficíal.mp3";
         media = new Media(new File(path).toURI().toString());
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setAutoPlay(true);
-        MediaView mediaView = new MediaView(mediaPlayer);
-        mediaPlayer.play();
+        mpl = new MediaPlayer(media);
+        mpl.setAutoPlay(true);
+        MediaView mediaView = new MediaView(mpl);
+        mpl.play();
     }
     
 
