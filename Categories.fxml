@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CategoriesController">
+   <children>
+      <ImageView fx:id="backgroundImage" fitHeight="403.0" fitWidth="604.0" layoutY="-1.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/tumblr_o122xeY48X1uz10hno1_500.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="allStarText" layoutX="382.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All Star" wrappingWidth="129.90805154722125">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="allStarImage" fitHeight="116.0" fitWidth="131.0" layoutX="364.0" layoutY="248.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/allstar.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="theFlashImage" fitHeight="117.0" fitWidth="155.0" layoutX="106.0" layoutY="247.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/15319364_10211558261331162_1439421152_n.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lazyTownImage" fitHeight="112.0" fitWidth="162.0" layoutX="96.0" layoutY="80.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/15310304_1126736387375528_1151349043_n.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aestheticImage" fitHeight="112.0" fitWidth="172.0" layoutX="343.0" layoutY="80.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="theFlashText" layoutX="119.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Flash" wrappingWidth="129.90805154722125">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="aestheticText" layoutX="368.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aesthetic" wrappingWidth="129.90805154722125">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lazyTownText" layoutX="119.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lazy Town" wrappingWidth="129.90805154722125">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="lazyTownButton" layoutX="97.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleLazyTownButton" prefHeight="141.0" prefWidth="164.0" visible="false" />
+      <Button fx:id="aestheticButton" layoutX="336.0" layoutY="83.0" mnemonicParsing="false" onAction="#handleAestheticButton" prefHeight="135.0" prefWidth="179.0" visible="false" />
+      <Button fx:id="theFlashButton" layoutX="106.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleTheFlashButton" prefHeight="140.0" prefWidth="155.0" visible="false" />
+      <Button fx:id="allStarButton" layoutX="362.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleAllStarButton" prefHeight="147.0" prefWidth="135.0" visible="false" />
+      <Text layoutX="78.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M E M E D E X">
+         <font>
+            <Font name="Copperplate" size="65.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

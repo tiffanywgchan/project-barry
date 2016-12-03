@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OpeningController">
+   <children>
+      <ImageView fx:id="overviewBackground" fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/239327-vaporwave-glitch_art.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loadingBar" fitHeight="42.0" fitWidth="200.0" layoutX="200.0" layoutY="149.0">
+         <image>
+            <Image url="file:/Users/TiffanyChan/Documents/workspace/BarryAllen/src/application/loading%20(1).png" />
+         </image>
+      </ImageView>
+      <Text fx:id="enterText" layoutX="216.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click Anywhere to Continue" wrappingWidth="200.00000596046448">
+         <font>
+            <Font name="Thonburi" size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="enterButton" mnemonicParsing="false" onAction="#handleEnterButton" opacity="0.0" prefHeight="400.0" prefWidth="600.0" text="Button" />
+   </children>
+</AnchorPane>
