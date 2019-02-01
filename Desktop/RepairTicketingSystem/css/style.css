@@ -1,0 +1,64 @@
+/*!
+. = classes 
+# is for ids 
+blank is when it's entire tag
+ */
+
+header {
+  padding: 130px 0 100px;
+}
+
+body {
+  background-color: #292929;
+  font-family: "Open Sans"; 
+  color: whitesmoke;
+}
+
+.navbar {
+    background-color: #292929;
+    min-height: 145px; 
+}
+
+.navbar-brand {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+hr {
+    border-color: #ACACAC;
+}
+
+.footer {
+    position: fixed; 
+    left:0; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+#footerInfo {
+    font-size: 8px; 
+}
+
+#facebook {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#linkedin {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 30px;
+}
+
+#mail {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 60px;
+}
+
+
+
